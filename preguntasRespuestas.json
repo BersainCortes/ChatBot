@@ -1,0 +1,30 @@
+{
+    "op1":{
+        "pregunta": "¿Cuál es tu formación académica?",
+        "respuesta": "Estoy actualmente estudiando Ingeniería en Sistemas y llevo completado 4 años de mi carrera. He adquirido conocimientos en el área de desarrollo web."
+    },
+    "op2":{
+        "pregunta": "¿Cuál es tu experiencia en desarrollo web?",
+        "respuesta": "Tengo 1 año de experiencia en desarrollo web. Durante este tiempo, he trabajado en proyectos que involucran manejo de bases de datos, usando MYSQL, tratamiento de los datos con PHP, JavaScript, maquetación front end, con HTML y CSS."
+    },
+    "op3":{
+        "pregunta": "¿Qué lenguajes de programación conoces?",
+        "respuesta": "Estoy familiarizado con lenguajes de programación como JavaScript y PHP, los cuales he utilizado en proyectos de desarrollo web."
+    },
+    "op4":{
+        "pregunta": "¿Cuáles son tus habilidades en desarrollo web?",
+        "respuesta": "Mis habilidades en desarrollo web incluyen diseño el desarrollo front-end utilizando HTML, CSS y JavaScript, así como el desarrollo de parte del servidor con PHP y MySQL."
+    },
+    "op5":{
+        "pregunta": "¿Has trabajado en algún proyecto colaborativo?",
+        "respuesta": "Sí, he tenido la oportunidad de trabajar en proyectos colaborativos. Por ejemplo, trabajé en un proyecto en equipo donde desarrollamos una app movil y mi rol en el equipo fue desarrollar la plataforma web para dicha app."
+    },
+    "op6":{
+        "pregunta": "¿Cómo te mantienes actualizado en el campo del desarrollo web?",
+        "respuesta": "Me mantengo actualizado en el campo del desarrollo web mediante practicas propias, dedico tiempo a leer en foros que me ayudan a entender mejor las tecnologias y la exploración de nuevas herramientas."
+    },
+    "op7":{
+        "pregunta": "¿Cuáles son tus metas futuras como desarrollador web?",
+        "respuesta": "Mis metas futuras como desarrollador web incluyen lograr gran parte de las tecnologias más usadas en el desarrollo y contribuir en proyectos que me ayuden a crecer profecionalmente."
+    }
+}
