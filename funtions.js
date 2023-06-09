@@ -21,22 +21,19 @@ $(document).ready(function(){
             data.op6.respuesta,
             data.op7.respuesta];
 
-            $("#msjs").append('<p id="respuestaMsjs">Hola, Soy Alpha el ChatbBot de portafolio ¿Qué te gustaria preguntarme?</p>');            
-
     for (let i = 0; i < arrayPreguntas.length; i++) {
         $("#options").append('<button id="optBtn' + [i] + '">' + JSON.stringify(arrayPreguntas[i]).replace(/"/g, '') + '</button>');
 
         $("#optBtn" + i).click(function() {
-                $("#msjs").append('<p id="preguntaMsjs">' + JSON.stringify(arrayPreguntas[i]).replace(/"/g, '') + '</p>');
-                $("#msjs").append('<p id="respuestaMsjs">' + JSON.stringify(arrayRespuestas[i]).replace(/"/g, '') + '</p>');
+                $("#msjs").append('<p class="preguntaMsjs" id="preguntaMsjs' + [i] + '">' + JSON.stringify(arrayPreguntas[i]).replace(/"/g, '') + '</p>');
+                $("#preguntaMsjs" + i).fadeIn(500);
+
+                $("#msjs").append('<p class="respuestaMsjs" id="respuestaMsjs' + [i] + '">' + JSON.stringify(arrayRespuestas[i]).replace(/"/g, '') + '</p>');
+                $("#respuestaMsjs" + i).fadeIn(4500);
                 $("#optBtn" + i).remove();
             }
         );
-    
     }
-
-    console.log(arrayPreguntas);
-
   })
   .catch(error => {
     // Manejo de errores si ocurre alguno durante la carga del archivo JSON
